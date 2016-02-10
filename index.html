@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Instagrid</title>
+
+    <!-- Font Awesome CSS file -->
+    <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="build/css/style.css">
+  </head>
+
+  <body>
+    <!-- Header Elements -->
+    <header class="site-header container" id="header">
+      <div class="logo">
+        <img src="images/instagrid-logo.svg" alt="The Instagrid logo in black and gray" />
+      </div>
+
+      <form class="hashtag-input-form">
+        <label for="hashtag-text">
+          #<input class="hashtag-input" id="hashtag-text"type="text" name="hashtag-text" placeholder="Search for a hashtag">
+        </label>
+        <button type="submit" name="button" class="search-button">
+          <i class="fa fa-search"></i>
+        </button>
+
+      </form>
+    </header>
+
+    <!-- Photo Grid Elements -->
+    <section class="photo-grid">
+      <div class="photo-list"></div>
+      <img class="loading-gif" src="images/ajax-loader.gif" alt="Loading..."/>
+      <div class="buttons">
+        <button type="button" class="load-more-button">Load More</button>
+        <a href="#header"><i class="fa fa-arrow-circle-o-up fa-3x"></i></a>
+      </div>
+
+    </section>
+
+    <!-- Footer Elements -->
+    <footer class="site-footer container">
+      <p>&copy; Copyright 2015 <span>Instagrid</span></p>
+    </footer>
+
+    <!-- jQuery library file -->
+    <script src="js/jquery-2.2.0.js"></script>
+    <!-- Main JS file -->
+    <script src="js/main.js"></script>
+  </body>
+
+</html>

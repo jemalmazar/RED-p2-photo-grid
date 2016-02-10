@@ -1,0 +1,19 @@
+/*  Footer Declarations  */
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #dbdbdb;
+  font-size: 0.90rem;
+  text-align: center;
+  height: 10vh;
+
+  @include desktop {
+    justify-content: flex-start;
+  }
+
+  span {
+    text-transform: uppercase;
+  }
+}

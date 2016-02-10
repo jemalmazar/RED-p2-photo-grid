@@ -1,0 +1,129 @@
+/*  Photo Grid Declarations  */
+
+.loading-gif {
+  display: block;
+  margin: 1rem auto;
+  height: 38px;
+  width: 38px;
+}
+
+.invalid-hashtag, .error-message {
+  font-style: italic;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto 0;
+  position: relative;
+
+  .load-more-button {
+    align-self: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Open_Sans';
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: #000;
+    padding: 0.5rem 2rem;
+    border: 1px solid $brand-color;
+    cursor: pointer;
+    outline: none;
+
+    &:hover {
+      background-color: $hover-color;
+    }
+  }
+
+  .fa-arrow-circle-o-up {
+    color: #FFF;
+    position: absolute;
+    top: -0.10rem;
+    right: 0.5rem;
+
+    &:hover {
+      color: $hover-color;
+    }
+  }
+
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  flex: 0 1 100%;
+  max-width: 100%;
+
+  @include two-column {
+    flex: 0 1 50%;
+    max-width: 50%;
+  }
+
+  @include tablet {
+    flex: 0 1 33.33%;
+    max-width: 33.33%;
+  }
+
+  @include desktop {
+    flex: 0 1 25%;
+    max-width: 25%;
+  }
+
+  .photo-box {
+    position: relative;
+
+    &:hover > .user-data-bar {
+      height: 60px;
+      display: flex;
+    }
+
+    .user-data-bar {
+      display: flex;
+      background: rgba(0, 0, 0, 0.3);
+      position: absolute;
+      height: 0;
+      width: 100%;
+      bottom: 0;
+      transition: height .4s linear;
+      overflow: hidden;
+
+      .user-profile-pic {
+        padding: 0.5rem;
+        width: 33%;
+
+        img {
+          max-width: 45px;
+          border-radius: 50%;
+        }
+      }
+
+      .user-info {
+        padding: 0.5rem;
+        width: 67%;
+        line-height: 1.25rem;
+
+        p {
+          text-align: right;
+          font-weight: bold;
+          overflow: hidden;
+          text-overflow: ellipsis;
+
+          .fa {
+            padding: 0 0.5rem;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}

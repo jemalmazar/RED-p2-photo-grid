@@ -1,0 +1,84 @@
+/*  Header Declarations  */
+
+.site-header {
+  display: flex;
+  // align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 90vh;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+
+  @include desktop {
+    justify-content: flex-start;
+  }
+}
+
+.header-transition {
+  height: auto;
+  transition: height 5s ease-in-out 6s;
+}
+
+.logo {
+  display: block;
+
+  @include tablet {
+    max-width: 225px;
+    margin-right: 1rem;
+  }
+
+  @include desktop {
+    max-width: 300px;
+  }
+
+  img {
+    width: 300px;
+  }
+}
+
+.hashtag-input-form {
+  display: block;
+
+  @include desktop {
+    max-width: 300px;
+  }
+
+  label {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  input {
+    font-family: 'Open_Sans';
+    font-size: 1.15rem;
+    color: #dbdbdb;
+    background-color: transparent;
+    padding: 1rem 0 0.25rem 0.5rem;
+    border: 0;
+    border-bottom: 1.5px solid #dbdbdb;
+    width: 14.5rem;
+
+    &:focus {
+      border-bottom: 1.5px solid #FFF;
+      outline: none;
+    }
+  }
+
+  .search-button {
+    font-size: 1rem;
+    color: #FFF;
+    background-color: #000;
+    border: 0;
+    cursor: pointer;
+
+    &:hover {
+      color: $hover-color;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
