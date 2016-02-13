@@ -11,3 +11,37 @@ img {
   height: auto;
   max-width: 100%;
 }
+/*  Mixins  */
+
+@mixin two-column {
+  @media (min-width: $two-column-width) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: $tablet-width) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $desktop-width) {
+    @content;
+  }
+}
+
+/*  Helper Classes  */
+
+.container {
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%;
+}
+/*  Variables  */
+
+$brand-color: #dbdbdb;
+$hover-color: #6d6d6d;
+$two-column-width: 480px;
+$tablet-width: 600px;
+$desktop-width: 1000px;
