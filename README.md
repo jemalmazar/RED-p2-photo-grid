@@ -21,9 +21,9 @@ The following were used to build this page:
 **Little Things I Learned**
 
 - wrapping input/button elements in a form element will enable form submission with an Enter key press
-- use case for 'vh' units in the header
-- use case for the overflow & text-overflow properties to hide the user info bar and usernames that were too long
-- using the :hover pseudo-class on one element to activate a transition on another element
+- use case for _vh_ units in the header
+- use case for the _overflow_ & _text-overflow_ properties to hide the user info bar and usernames that were too long
+- using the _:hover_ pseudo-class on one element to activate a transition on another element
 
 **Project Epilogue**
 
