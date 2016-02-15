@@ -1,7 +1,6 @@
 # RED Academy Project 2 - InstaGrid
 
-View deployed website at: http://jemalmazar.github.io/red-p2-instagrid/
-
+View deployed web page at: http://jemalmazar.github.io/red-p2-instagrid/
 
 **Project Description**
 
@@ -9,7 +8,7 @@ A one-page website that dynamically fetches an Instagram API endpoint based on u
 
 **Tools & Methods Used**
 
-The following were used to build this site:
+The following were used to build this page:
 
 - HTML/CSS
 - Flexbox
