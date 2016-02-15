@@ -1,10 +1,8 @@
 @import "reset";
 @import "fonts";
 
-@import "variables";
-@import "mixins";
+//condensed variables, mixins and helper partials into global
 @import "global";
-@import "helper";
 @import "header";
 @import "photo-grid";
 @import "footer";
