@@ -1,6 +1,6 @@
 # RED Academy Project 2 - Photo Grid
 
-View deployed web page at: http://jemalmazar.github.io/RED-p2-photo-grid/
+View deployed web page at: http://jemalmazar.github.io/RED-p2-photo-grid
 
 **Project Description**
 
