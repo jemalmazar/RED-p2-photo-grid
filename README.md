@@ -4,7 +4,7 @@ View deployed web page at: http://jemalmazar.github.io/RED-p2-photo-grid
 
 **Project Description**
 
-A one-page website that dynamically fetches an Instagram API endpoint based on user input, and then displays the results on a grid on the page.
+A single web page that dynamically, based on user input, fetches an Instagram API endpoint and displays the results on a grid on the page.
 
 **Tools & Methods Used**
 
