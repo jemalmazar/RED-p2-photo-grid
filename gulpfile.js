@@ -5,7 +5,7 @@ var gulp = require('gulp');
     notify = require('gulp-notify');
     jscs = require('gulp-jscs');
     sass = require('gulp-sass');
-    autoprefixer = require('gulp-minify-css');
+    autoprefixer = require('gulp-autoprefixer');
     minifyCSS = require('gulp-minify-css');
     rename = require('gulp-rename');
 
@@ -39,8 +39,7 @@ gulp.task('watch', function(){
 
   gulp.watch(['./js/main.js'], ['uglify']);
   gulp.watch(['./sass/*.scss'], ['sass']);
-  gulp.watch(['./build/main.js', 'index.html']).on('change', browserSync.reload);
-  gulp.watch(['./build/css/style.css']).on('change', browserSync.reload);
+  gulp.watch(['./build/main.js', './build/css/style.css', 'index.html']).on('change', browserSync.reload);
 
 });
 
