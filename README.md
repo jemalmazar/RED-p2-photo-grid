@@ -1,6 +1,6 @@
-# RED Academy Project 2 - InstaGrid
+# RED Academy Project 2 - Photo Grid
 
-View deployed web page at: http://jemalmazar.github.io/red-p2-instagrid/
+View deployed web page at: http://jemalmazar.github.io/RED-p2-photo-grid/
 
 **Project Description**
 
@@ -12,10 +12,10 @@ The following were used to build this page:
 
 - HTML/CSS
 - Flexbox
-- jQuery
+- [jQuery](http://jquery.com/)
 - AJAX
 - Responsively designed for mobile, tablet, and desktop widths
-- Gulp task runner with the following modules: Browser-Sync, SASS, Autoprefixer, JSCS, Minify-CSS, Notify, Plumber, Rename, and Uglify
+- [Gulp](http://gulpjs.com/) task runner with the following modules: Browser-Sync, SASS, Autoprefixer, JSCS, Minify-CSS, Notify, Plumber, Rename, and Uglify
 - Git & GitHub for Version Control
 
 **Little Things I Learned**
