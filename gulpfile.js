@@ -27,7 +27,8 @@ gulp.task('uglify', function(){
     .pipe(jscs())
     .pipe(jscs.reporter())
     .pipe(uglify()) // Call the uglify function on these files
-    .pipe(gulp.dest('./build')); // Where do we put the result?
+    .pipe(rename('main.min.js'))
+    .pipe(gulp.dest('./build/js')); // Where do we put the result?
 });
 
 gulp.task('watch', function(){
@@ -37,9 +38,9 @@ gulp.task('watch', function(){
     }
   });
 
-  gulp.watch(['./js/main.js'], ['uglify']);
+  gulp.watch(['./js/main.min.js'], ['uglify']);
   gulp.watch(['./sass/*.scss'], ['sass']);
-  gulp.watch(['./build/main.js', './build/css/style.css', 'index.html']).on('change', browserSync.reload);
+  gulp.watch(['./build/js/main.min.js', './build/css/style.min.css', 'index.html']).on('change', browserSync.reload);
 
 });
 
