@@ -1,1 +1,308 @@
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}.buttons .load-more-button,.hashtag-input-form input,body{font-family:Open_Sans}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1;background-color:#000;font-size:16px;color:#FFF}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}*{box-sizing:border-box}@font-face{font-family:Open_Sans;src:url(../../fonts/opensans-bold-webfont.eot);src:url(../../fonts/opensans-bold-webfont.eot?#iefix) format("embedded-opentype"),url(../../fonts/opensans-bold-webfont.woff2) format("woff2"),url(../../fonts/opensans-bold-webfont.woff) format("woff"),url(../../fonts/opensans-bold-webfont.ttf) format("truetype"),url(../../fonts/opensans-bold-webfont.svg#open_sansbold) format("svg");font-weight:700;font-style:normal}@font-face{font-family:Open_Sans;src:url(../../fonts/opensans-bolditalic-webfont.eot);src:url(../../fonts/opensans-bolditalic-webfont.eot?#iefix) format("embedded-opentype"),url(../../fonts/opensans-bolditalic-webfont.woff2) format("woff2"),url(../../fonts/opensans-bolditalic-webfont.woff) format("woff"),url(../../fonts/opensans-bolditalic-webfont.ttf) format("truetype"),url(../../fonts/opensans-bolditalic-webfont.svg#open_sansbold_italic) format("svg");font-weight:700;font-style:italic}@font-face{font-family:Open_Sans;src:url(../../fonts/opensans-light-webfont.eot);src:url(../../fonts/opensans-light-webfont.eot?#iefix) format("embedded-opentype"),url(../../fonts/opensans-light-webfont.woff) format("woff"),url(../../fonts/opensans-light-webfont.woff2) format("woff2"),url(../../fonts/opensans-light-webfont.ttf) format("truetype"),url(../../fonts/opensans-light-webfont.svg#open_sanslight) format("svg");font-weight:400;font-style:normal}@font-face{font-family:Open_Sans;src:url(../../fonts/opensans-lightitalic-webfont.eot);src:url(../../fonts/opensans-lightitalic-webfont.eot?#iefix) format("embedded-opentype"),url(../../fonts/opensans-lightitalic-webfont.woff2) format("woff2"),url(../../fonts/opensans-lightitalic-webfont.woff) format("woff"),url(../../fonts/opensans-lightitalic-webfont.ttf) format("truetype"),url(../../fonts/opensans-lightitalic-webfont.svg#open_sanslight_italic) format("svg");font-weight:400;font-style:italic}img{height:auto;max-width:100%}.container{margin:0 auto;padding:0 2rem;width:100%}.site-header{display:flex;justify-content:center;flex-wrap:wrap;height:90vh;align-items:center;padding-top:2rem;padding-bottom:2rem}.hashtag-input-form,.loading-gif,.logo{display:block}.header-transition{height:auto;transition:height 5s ease-in-out 6s}@media (min-width:600px){.logo{max-width:225px;margin-right:1rem}}.logo img{width:300px}@media (min-width:1000px){.site-header{justify-content:flex-start}.hashtag-input-form,.logo{max-width:300px}}.hashtag-input-form label{font-size:1.25rem;font-weight:700}.hashtag-input-form input{font-size:1.15rem;color:#dbdbdb;background-color:transparent;padding:1rem 0 .25rem .5rem;border:0;border-bottom:1.5px solid #dbdbdb;width:14.5rem}.hashtag-input-form input:focus{border-bottom:1.5px solid #FFF;outline:0}.hashtag-input-form .search-button{font-size:1rem;color:#FFF;background-color:#000;border:0;cursor:pointer}.hashtag-input-form .search-button:hover{color:#6d6d6d}.hashtag-input-form .search-button:focus{outline:0}.loading-gif{margin:1rem auto;height:38px;width:38px}.error-message,.invalid-hashtag{font-style:italic;text-align:center;margin:1rem auto}.buttons{display:flex;align-items:center;justify-content:center;margin:2rem auto 0;position:relative}.buttons .load-more-button{align-self:center;font-size:1.25rem;font-weight:700;text-transform:uppercase;color:#FFF;background-color:#000;padding:.5rem 2rem;border:1px solid #dbdbdb;cursor:pointer;outline:0}.buttons .load-more-button:hover{background-color:#6d6d6d}.buttons .fa-arrow-circle-o-up{color:#FFF;position:absolute;top:-.1rem;right:.5rem}.buttons .fa-arrow-circle-o-up:hover{color:#6d6d6d}ul{display:flex;flex-wrap:wrap}li{flex:0 1 100%;max-width:100%}@media (min-width:480px){li{flex:0 1 50%;max-width:50%}}@media (min-width:600px){li{flex:0 1 33.33%;max-width:33.33%}}@media (min-width:1000px){li{flex:0 1 25%;max-width:25%}}li .photo-box{position:relative}li .photo-box:hover>.user-data-bar{height:60px;display:flex}li .photo-box .user-data-bar{display:flex;background:rgba(0,0,0,.3);position:absolute;height:0;width:100%;bottom:0;transition:height .4s linear;overflow:hidden}li .photo-box .user-data-bar .user-profile-pic{padding:.5rem;width:33%}li .photo-box .user-data-bar .user-profile-pic img{max-width:45px;border-radius:50%}li .photo-box .user-data-bar .user-info{padding:.5rem;width:67%;line-height:1.25rem}li .photo-box .user-data-bar .user-info p{text-align:right;font-weight:700;overflow:hidden;text-overflow:ellipsis}li .photo-box .user-data-bar .user-info p .fa{padding:0 .5rem}.site-footer{display:flex;align-items:center;justify-content:center;color:#dbdbdb;font-size:.9rem;text-align:center;height:10vh}@media (min-width:1000px){.site-footer{justify-content:flex-start}}.site-footer span{text-transform:uppercase}
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on February 3, 2016 */
+@font-face {
+  font-family: 'Open_Sans';
+  src: url("../../fonts/opensans-bold-webfont.eot");
+  src: url("../../fonts/opensans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/opensans-bold-webfont.woff2") format("woff2"), url("../../fonts/opensans-bold-webfont.woff") format("woff"), url("../../fonts/opensans-bold-webfont.ttf") format("truetype"), url("../../fonts/opensans-bold-webfont.svg#open_sansbold") format("svg");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open_Sans';
+  src: url("../../fonts/opensans-bolditalic-webfont.eot");
+  src: url("../../fonts/opensans-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/opensans-bolditalic-webfont.woff2") format("woff2"), url("../../fonts/opensans-bolditalic-webfont.woff") format("woff"), url("../../fonts/opensans-bolditalic-webfont.ttf") format("truetype"), url("../../fonts/opensans-bolditalic-webfont.svg#open_sansbold_italic") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Open_Sans';
+  src: url("../../fonts/opensans-light-webfont.eot");
+  src: url("../../fonts/opensans-light-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/opensans-light-webfont.woff") format("woff"), url("../../fonts/opensans-light-webfont.woff2") format("woff2"), url("../../fonts/opensans-light-webfont.ttf") format("truetype"), url("../../fonts/opensans-light-webfont.svg#open_sanslight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open_Sans';
+  src: url("../../fonts/opensans-lightitalic-webfont.eot");
+  src: url("../../fonts/opensans-lightitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/opensans-lightitalic-webfont.woff2") format("woff2"), url("../../fonts/opensans-lightitalic-webfont.woff") format("woff"), url("../../fonts/opensans-lightitalic-webfont.ttf") format("truetype"), url("../../fonts/opensans-lightitalic-webfont.svg#open_sanslight_italic") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+/*  Variables  */
+/*  Mixins  */
+/*  Global  */
+body {
+  background-color: #000;
+  font-family: 'Open_Sans';
+  font-size: 16px;
+  color: #FFF; }
+
+img {
+  height: auto;
+  max-width: 100%; }
+
+/*  Helper Classes  */
+.container {
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%; }
+
+/*  Header Declarations  */
+.site-header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  height: 90vh;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+  @media (min-width: 1000px) {
+    .site-header {
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; } }
+
+.header-transition {
+  height: 15vh;
+  transition: height 1s ease-in-out; }
+
+.logo {
+  display: block; }
+  @media (min-width: 600px) {
+    .logo {
+      max-width: 225px;
+      margin-right: 1rem; } }
+  @media (min-width: 1000px) {
+    .logo {
+      max-width: 300px; } }
+  .logo img {
+    width: 300px; }
+
+.hashtag-input-form {
+  display: block; }
+  @media (min-width: 1000px) {
+    .hashtag-input-form {
+      max-width: 300px; } }
+  .hashtag-input-form label {
+    font-size: 1.25rem;
+    font-weight: bold; }
+  .hashtag-input-form input {
+    font-family: 'Open_Sans';
+    font-size: 1.15rem;
+    color: #dbdbdb;
+    background-color: transparent;
+    padding: 1rem 0 0.25rem 0.5rem;
+    border: 0;
+    border-bottom: 1.5px solid #dbdbdb;
+    width: 14.5rem; }
+    .hashtag-input-form input:focus {
+      border-bottom: 1.5px solid #FFF;
+      outline: none; }
+  .hashtag-input-form .search-button {
+    font-size: 1rem;
+    color: #FFF;
+    background-color: #000;
+    border: 0;
+    cursor: pointer; }
+    .hashtag-input-form .search-button:hover {
+      color: #6d6d6d; }
+    .hashtag-input-form .search-button:focus {
+      outline: none; }
+
+/*  Photo Grid Declarations  */
+.loading-gif {
+  display: block;
+  margin: 1rem auto;
+  height: 38px;
+  width: 38px; }
+
+.invalid-hashtag, .error-message {
+  font-style: italic;
+  text-align: center;
+  margin: 1rem auto; }
+
+.buttons {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem auto 0;
+  position: relative; }
+  .buttons .load-more-button {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Open_Sans';
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: #000;
+    padding: 0.5rem 2rem;
+    border: 1px solid #dbdbdb;
+    cursor: pointer;
+    outline: none; }
+    .buttons .load-more-button:hover {
+      background-color: #6d6d6d; }
+  .buttons .fa-arrow-circle-o-up {
+    color: #FFF;
+    position: absolute;
+    top: -0.10rem;
+    right: 0.5rem; }
+    .buttons .fa-arrow-circle-o-up:hover {
+      color: #6d6d6d; }
+
+ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+
+li {
+  -webkit-flex: 0 1 100%;
+      -ms-flex: 0 1 100%;
+          flex: 0 1 100%;
+  max-width: 100%; }
+  @media (min-width: 480px) {
+    li {
+      -webkit-flex: 0 1 50%;
+          -ms-flex: 0 1 50%;
+              flex: 0 1 50%;
+      max-width: 50%; } }
+  @media (min-width: 600px) {
+    li {
+      -webkit-flex: 0 1 33.33%;
+          -ms-flex: 0 1 33.33%;
+              flex: 0 1 33.33%;
+      max-width: 33.33%; } }
+  @media (min-width: 1000px) {
+    li {
+      -webkit-flex: 0 1 25%;
+          -ms-flex: 0 1 25%;
+              flex: 0 1 25%;
+      max-width: 25%; } }
+  li .photo-box {
+    position: relative; }
+    li .photo-box:hover > .user-data-bar {
+      height: 60px;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+    li .photo-box .user-data-bar {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      background: rgba(0, 0, 0, 0.3);
+      position: absolute;
+      height: 0;
+      width: 100%;
+      bottom: 0;
+      transition: height .4s linear;
+      overflow: hidden; }
+      li .photo-box .user-data-bar .user-profile-pic {
+        padding: 0.5rem;
+        width: 33%; }
+        li .photo-box .user-data-bar .user-profile-pic img {
+          max-width: 45px;
+          border-radius: 50%; }
+      li .photo-box .user-data-bar .user-info {
+        padding: 0.5rem;
+        width: 67%;
+        line-height: 1.25rem; }
+        li .photo-box .user-data-bar .user-info p {
+          text-align: right;
+          font-weight: bold;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+          li .photo-box .user-data-bar .user-info p .fa {
+            padding: 0 0.5rem; }
+
+/*  Footer Declarations  */
+.site-footer {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #dbdbdb;
+  font-size: 0.90rem;
+  text-align: center;
+  height: 10vh; }
+  @media (min-width: 1000px) {
+    .site-footer {
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start; } }
+  .site-footer span {
+    text-transform: uppercase; }
